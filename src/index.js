@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import DarkOrLight from './DarkOrLight';
+// import SignUp from './SignUp';
+// import LandingPage from './LandingPage';
 // import App from './App';
 // import Clock from './Clock';
 // import Comment from './Comment';
@@ -8,7 +10,12 @@ import './index.css';
 // import Notification from './Notification';
 // import NotificationList from './NotificationList';
 // import Accommodate  from './Accommodate'
-import ConfirmButton from './ConfirmButton';
+// import ConfirmButton from './ConfirmButton';
+// import Toolbar from './Toolbar';
+// import Calculator from './Calculator';
+// import AttendanceBook from './AttendanceBook';
+// import ProfileCard from './ProfileCard';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,7 +33,14 @@ root.render(
 		{/* <CommentList /> */}
 		{/* <NotificationList /> */}
 		{/* <Accommodate /> */}
-		<ConfirmButton />
+		{/* <ConfirmButton /> */}
+		{/* <Toolbar /> */}
+		{/* <LandingPage /> */}
+		{/* <AttendanceBook /> */}
+		{/* <SignUp /> */}
+		{/* <Calculator /> */}
+		{/* <ProfileCard /> */}
+		<DarkOrLight />
 	</React.StrictMode>
 );
 
