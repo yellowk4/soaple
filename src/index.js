@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import DarkOrLight from './DarkOrLight';
+import Blocks from './Blocks';
+// import DarkOrLight from './DarkOrLight';
 // import SignUp from './SignUp';
 // import LandingPage from './LandingPage';
 // import App from './App';
@@ -40,7 +41,8 @@ root.render(
 		{/* <SignUp /> */}
 		{/* <Calculator /> */}
 		{/* <ProfileCard /> */}
-		<DarkOrLight />
+		{/* <DarkOrLight /> */}
+		<Blocks />
 	</React.StrictMode>
 );
 
